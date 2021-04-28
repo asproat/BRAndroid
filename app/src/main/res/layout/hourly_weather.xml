@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="3dp"
+    >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hourlyImage"
+        android:src="@drawable/ic_icon_weather_active_ic_sunny_active"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hourlyTime"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:text="00PM"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hourlyTemp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:text="00°"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hourlyRain"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:text="00%"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hourlyWind"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:text="0.0"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hourlyHumidity"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:text="00%"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        />
+
+</LinearLayout>

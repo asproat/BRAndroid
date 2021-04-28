@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Widget.Theme.BRAndroid.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="SearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="iconTint">@color/white</item>
+        <item name="tint">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>
